@@ -1,0 +1,302 @@
+2026-03-22 00:14:10 [error]: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async Sequelize.authenticate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:457:5)
+2026-03-22 00:24:07 [error]: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async Sequelize.authenticate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:457:5)
+2026-03-22 00:25:24 [error]: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async Sequelize.authenticate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:457:5)
+2026-03-22 00:26:55 [error]: SequelizeConnectionError: Unknown database 'jobportal'
+    at ConnectionManager.connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async Sequelize.authenticate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:457:5)
+2026-03-22 11:12:24 [error]: Error
+    at Query.run (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Job.aggregate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Job.count (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async exports.getPlatformStats (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\controllers\analyticsController.js:11:7)
+2026-03-22 11:12:24 [error]: Error
+    at Query.run (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.select (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Job.findAll (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async Job.findAndCountAll (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.getJobs (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\controllers\jobController.js:61:35)
+2026-03-22 11:12:25 [error]: Error
+    at Query.run (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Job.aggregate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Job.count (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async exports.getPlatformStats (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\controllers\analyticsController.js:11:7)
+2026-03-22 11:12:26 [error]: Error
+    at Query.run (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Job.aggregate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Job.count (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Job.findAndCountAll (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.getJobs (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\controllers\jobController.js:61:35)
+2026-03-22 11:31:09 [error]: ValidationError: ResumeVersion validation failed: skills.0: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "skills.0" because of "CastError"
+    at Document.invalidate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:3221:32)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1466:12)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1121:16)
+    at model.Document (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:167:12)
+    at model.Model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:4755:15)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2917:18
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2906:30)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\routes\resumeVersions.js:52:43
+2026-03-22 11:31:43 [error]: ValidationError: ResumeVersion validation failed: skills.0: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "skills.0" because of "CastError"
+    at Document.invalidate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:3221:32)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1466:12)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1121:16)
+    at model.Document (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:167:12)
+    at model.Model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:4755:15)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2917:18
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2906:30)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\routes\resumeVersions.js:52:43
+2026-03-22 11:32:06 [error]: ValidationError: ResumeVersion validation failed: skills.0: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "skills.0" because of "CastError"
+    at Document.invalidate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:3221:32)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1466:12)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1121:16)
+    at model.Document (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:167:12)
+    at model.Model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:4755:15)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2917:18
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2906:30)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\routes\resumeVersions.js:52:43
+2026-03-22 11:32:32 [error]: ValidationError: ResumeVersion validation failed: skills.0: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "skills.0" because of "CastError"
+    at Document.invalidate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:3221:32)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1466:12)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1121:16)
+    at model.Document (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:167:12)
+    at model.Model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:4755:15)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2917:18
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2906:30)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\routes\resumeVersions.js:52:43
+2026-03-22 11:32:40 [error]: ValidationError: ResumeVersion validation failed: skills.0: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "skills.0" because of "CastError"
+    at Document.invalidate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:3221:32)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1466:12)
+    at model.$set (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:1121:16)
+    at model.Document (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\document.js:167:12)
+    at model.Model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:4755:15)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2917:18
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\model.js:2906:30)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\routes\resumeVersions.js:52:43
+2026-03-22 22:34:30 [error]: CastError: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "candidateProfile.skills.0" because of "CastError"
+    at SchemaArray.cast (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schema\array.js:401:15)
+    at SchemaType.applySetters (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at castUpdateVal (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:574:21)
+    at walkUpdatePath (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:381:24)
+    at castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:110:7)
+    at model.Query._castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4727:10)
+    at model.Query._findOneAndUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:3341:23)
+    at model.Query.exec (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\routes\resume.js:24:7
+2026-03-22 22:35:23 [error]: CastError: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "candidateProfile.skills.0" because of "CastError"
+    at SchemaArray.cast (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schema\array.js:401:15)
+    at SchemaType.applySetters (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at castUpdateVal (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:574:21)
+    at walkUpdatePath (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:381:24)
+    at castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:110:7)
+    at model.Query._castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4727:10)
+    at model.Query._findOneAndUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:3341:23)
+    at model.Query.exec (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\routes\resume.js:24:7
+2026-03-22 23:23:42 [error]: CastError: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "candidateProfile.skills.0" because of "CastError"
+    at SchemaArray.cast (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schema\array.js:401:15)
+    at SchemaType.applySetters (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at castUpdateVal (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:574:21)
+    at walkUpdatePath (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:381:24)
+    at castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:110:7)
+    at model.Query._castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4727:10)
+    at model.Query._findOneAndUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:3341:23)
+    at model.Query.exec (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async exports.applyToJob (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\controllers\applicationController.js:65:7)
+2026-03-22 23:24:06 [error]: CastError: Cast to [string] failed for value "[\n' +
+  "  { skill: 'javascript', confidence: 0.95 },\n" +
+  "  { skill: 'typescript', confidence: 0.95 },\n" +
+  "  { skill: 'nodejs', confidence: 0.95 },\n" +
+  "  { skill: 'react', confidence: 0.95 },\n" +
+  "  { skill: 'java', confidence: 0.95 },\n" +
+  "  { skill: 'databases', confidence: 0.95 },\n" +
+  "  { skill: 'design', confidence: 0.95 },\n" +
+  "  { skill: 'ml', confidence: 0.95 },\n" +
+  "  { skill: 'cplusplus', confidence: 0.95 },\n" +
+  "  { skill: 'go', confidence: 0.95 },\n" +
+  "  { skill: 'devtools', confidence: 0.95 },\n" +
+  "  { skill: 'testing', confidence: 0.95 },\n" +
+  "  { skill: 'soft', confidence: 0.95 }\n" +
+  ']" (type string) at path "candidateProfile.skills.0" because of "CastError"
+    at SchemaArray.cast (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schema\array.js:401:15)
+    at SchemaType.applySetters (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at castUpdateVal (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:574:21)
+    at walkUpdatePath (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:381:24)
+    at castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\helpers\query\castUpdate.js:110:7)
+    at model.Query._castUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4727:10)
+    at model.Query._findOneAndUpdate (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:3341:23)
+    at model.Query.exec (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async exports.applyToJob (C:\Users\CHHAYA SHAH\Desktop\Job Portal\backend\controllers\applicationController.js:65:7)
+2026-03-31 07:47:15 [error]: Error
+    at Query.run (C:\Users\CHHAYA SHAH\Desktop\Job Portal\jobspark_backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\CHHAYA SHAH\Desktop\Job Portal\jobspark_backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.insert (C:\Users\CHHAYA SHAH\Desktop\Job Portal\jobspark_backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\CHHAYA SHAH\Desktop\Job Portal\jobspark_backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Job.create (C:\Users\CHHAYA SHAH\Desktop\Job Portal\jobspark_backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async exports.createJob (C:\Users\CHHAYA SHAH\Desktop\Job Portal\jobspark_backend\controllers\jobController.js:14:17)
