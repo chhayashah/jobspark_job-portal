@@ -192,7 +192,6 @@ UPLOAD_PATH=./uploads
 REDIS_URL=redis://localhost:6379
 CLIENT_URL=http://localhost:3000
 
-⚠️ Note: the .env.example in this repo currently has real-looking email/password values committed. Replace them with your own credentials and make sure .env is git-ignored before pushing anywhere public.
 
 Frontend setup
 
