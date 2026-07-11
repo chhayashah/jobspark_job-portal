@@ -199,11 +199,3 @@ bashcd jobspark_frontend
 npm install
 npm start   # runs on http://localhost:3000, proxies API calls to :5000
 
-10. Known Gaps / Things To Improve
-
-
-.env.example contains what look like real credentials — rotate/remove them.
-.doc/.docx resume parsing currently just reads raw bytes as text (works for .pdf via pdf-parse, but not properly for Word files — the code even leaves a comment suggesting mammoth for this).
-No automated test suite currently included for either frontend or backend.
-logs/ folder (Winston output) is currently bundled in the zip — should be git-ignored.
-Consider adding API documentation (e.g. Swagger) since there are ~10 route groups.
